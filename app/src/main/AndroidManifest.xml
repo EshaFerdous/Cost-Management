@@ -32,6 +32,7 @@
         <activity android:name=".AddDailyExpense"></activity>
         <activity android:name=".ExpenseListView"></activity>
         <activity android:name=".ExpenseGraphView"></activity>
+        <activity android:name=".ShowCost"></activity>
     </application>
 
 </manifest>
