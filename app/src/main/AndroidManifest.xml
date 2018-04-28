@@ -28,6 +28,10 @@
         </receiver>
 
         <activity android:name=".Form"></activity>
+         <activity android:name=".Form"></activity>
+        <activity android:name=".AddDailyExpense"></activity>
+        <activity android:name=".ExpenseListView"></activity>
+        <activity android:name=".ExpenseGraphView"></activity>
     </application>
 
 </manifest>
