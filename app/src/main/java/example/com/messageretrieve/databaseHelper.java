@@ -1,4 +1,5 @@
-package com.example.fatema.expensecalculator;
+package example.com.messageretrieve;
+
 
 import android.content.ContentValues;
 import android.content.Context;
