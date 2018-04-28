@@ -1,4 +1,4 @@
-package com.example.fatema.expensecalculator;
+package example.com.messageretrieve;
 
 import android.database.Cursor;
 import android.support.annotation.Nullable;
