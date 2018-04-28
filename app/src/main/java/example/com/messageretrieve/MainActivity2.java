@@ -1,9 +1,10 @@
-package com.example.fatema.expensecalculator;
+package example.com.messageretrieve;
+
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-public class MainActivity extends AppCompatActivity {
+ 
+public class MainActivityAddExpense extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
