@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sadia.sms.home_page">
+
+
+    <ImageButton
+        android:id="@+id/deposit"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/deposit"
+        android:layout_marginTop="118dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/withdraw"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/withdraw"
+        android:layout_alignTop="@+id/deposit"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/deposit" />
+
+    <ImageButton
+        android:id="@+id/graph"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/graph"
+        android:layout_below="@+id/deposit"
+        android:layout_alignStart="@+id/deposit" />
+
+    <ImageButton
+        android:id="@+id/total"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/total"
+        android:layout_below="@+id/withdraw"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/deposit" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textSize="30dp"
+        android:text="Choose options from below:"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/withdraw"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
